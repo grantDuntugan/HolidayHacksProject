@@ -1,4 +1,4 @@
-function playAudio() {
-	var audio = new Audio('.mp3');
+function playAudio(file) {
+	var audio = new Audio(file + '.mp3');
 	audio.play();
 }
